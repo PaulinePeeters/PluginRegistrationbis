@@ -1,0 +1,20 @@
+{
+    "name": "InsertUserName",
+    "guid": "asc.{your-guid-here}",
+    "description": "Plugin to insert user name on cell click",
+    "version": "1.0",
+    "author": "Your Name",
+    "license": "AGPL-3.0",
+    "baseUrl": "",
+    "images": ["resources/icon.png"],
+    "initData": {},
+    "events": ["onDocumentOpen"],
+    "isViewer": false,
+    "EditorsSupport": ["cell"],
+    "buttons": [
+    {
+        "text": "Insert User Name",
+        "code": "window.Asc.plugin.executeMethod('onButtonPressed');"
+    }
+]
+}
